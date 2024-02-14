@@ -1,0 +1,140 @@
+.container {
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 73px;
+    margin-block-start: 50px;
+    z-index: 1;
+    margin-inline-start: 10%;
+    margin-inline-end: 10%;
+  }
+  
+  .title {
+    color: var(--color-text);
+    text-align: center;
+  }
+  
+  .maintitle {
+    color: var(--color-text);
+    text-align: center;
+  }
+  
+  .projectItem {
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .projectItem1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    padding: 25px;
+    background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+  }
+  
+  /* Add styles for the Slider if needed */
+  .slider {
+    width : 500px;
+    
+    margin: auto 0;
+    align-items: center;
+    
+  }
+  
+  /* Add styles for the container of slider and info */
+  .slider-container {
+    direction: relative;
+    align-items: center;
+    left : 100px;
+    position: absolute;
+  }
+  
+  /* Add styles for the info container */
+  .info {
+    margin-left : 0px; /* Adjust left margin to position next to the image */
+    padding: 20px; /* Adjust as needed */
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Add styles for the project heading */
+  .projectheading {
+    align-items: center;
+    margin: 10; /* Remove any default margin */
+    text-align: centr;
+  }
+  
+  /* Add styles for the project description */
+  .projectDescription {
+    margin: 0; /* Remove any default margin */
+  }
+  
+  /* Center the image within its container */
+  
+  
+  /* Adjust the size of the image */
+  .lizPhoto {
+    
+    inline-size: 500px;
+  }
+  .projectItems1:hover {
+    background-size: 100% 100%;
+  }
+
+  .projectItems1 p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-inline-start: 20px;
+  }
+  
+  .todo{
+    height : 300px;
+    width : 500px;
+
+  }
+  a {
+    color: red; /* Set the color of the link to white */
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+     /* Remove the underline */
+  }
+  .link{
+    text-align: center;
+  }
+
+  .Photo {
+    height : 300px;
+    inline-size: 500px;
+  }
+
+  @media screen and (max-inline-size: 830px) {
+    .container {
+      background-color: transparent;
+      padding-inline-start: 0;
+      padding-inline-end: 0;
+    }
+    .slider {
+      width : 100px;
+      
+      margin: auto 0;
+      align-items: center;
+      
+    }
+    .lizPhoto {
+    
+      inline-size: 100px;
+    }
+
+  }
+  
+ 
+  
+  
